@@ -1,12 +1,13 @@
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View} from 'react-native';
-
+import Hello from "./app/components/Hello"
 
 export default class App extends Component{
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>Hello world!!!</Text>
+        <Text style={styles.welcome}>world!!!</Text>
+         <Hello></Hello>
       </View>
     );
   }
